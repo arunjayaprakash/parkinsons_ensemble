@@ -1,0 +1,19 @@
+
+3D -> 2D
+
+#benefits:
+    helps in data compressing and storage space
+    speeds up
+    multicollinearity (one predictor variable can be linearly predicted from the others with a substantial degree of accuracy)
+    redundant features
+
+
+
+#techniques
+    if many missing values -> drop feature
+    dop if low variance
+    Decision tree & random forest (inbuilt?)
+    Backward feature elim - start with all n dimensions. compute sum of sqare after elim each var. remove var with east SSR.
+        ( P value SSL in course)
+    Principal Component Analysis - 
+
