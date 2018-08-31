@@ -9,11 +9,23 @@
 
 
 
-#techniques
+#techniques : feature selection & feature extraction
+    selection:
+
     if many missing values -> drop feature
     dop if low variance
+    complete loss of feature info
     Decision tree & random forest (inbuilt?)
     Backward feature elim - start with all n dimensions. compute sum of sqare after elim each var. remove var with east SSR.
-        ( P value SSL in course)
-    Principal Component Analysis - 
+        ( P value SSL in c  ourse)
+        if P value > SL remove feature  
+            p value of 0.9 => 90% probability of obtaining same mean without feature
 
+
+    extraction:
+
+    Principal Component Analysis - 
+        unsupervised
+        ensures variables are independent
+        extracts p < m new features from m indie features 
+        actual calculation of PC involves covariance,directions,eigenvectors
