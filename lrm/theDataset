@@ -1,0 +1,38 @@
+Archived users:
+
+Filenames: User_<usercode>.txt
+Columns:
+		BirthYear
+		Gender
+		Parkinsons - T/F
+		Tremors - T/F
+		DiagnosisYear
+		Sided
+		UPDRS 
+			Unified Parkinson's disease rating scale
+		Impact 
+			Severe/Mild/Medium/-----/
+		Levadopa - T/F
+			Levodopa is one of the main drugs used to treat Parkinson's symptoms.Levodopa 				is a chemical building-block that your body converts into dopamine. It 				replaces the dopamine that is lost in Parkinson's
+		DA - dopamine
+		MAOB - Monoamine Oxidase B (MAO-B) Inhibitors
+			Since MAO-B breaks down dopamine, inhibiting it prolongs the action of 				dopamine in the brain, and improves the symptoms of Parkinson's disease
+		Other
+
+Tappy data:
+
+Filenames: <usercode>_<date>.txt
+Columns: 
+		Usercode
+		Date	
+		Timestamp	
+		Hand	
+		Hold time	
+			The elapsed time (ms) between the Key Down and Key Up events when pressing and 				releasing a key.
+		Direction 	
+		Latency time 
+			The elapsed time (ms) from the Key Down of one key until the Key Down of the 				subsequent key.
+			Latency between successive keystrokes can be separated into same-hand (LL and 				RR) and opposite-hand (LR and RL). Since the space key can be pressed by 				either hand, it was treated separately (LS, RS, SL, SR).
+		Flight time	
+			The elapsed time (ms) between releasing a key and pressing the subsequent 				key.	
+			Flight Time = Latency − Hold Time
